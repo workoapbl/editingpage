@@ -52,7 +52,7 @@ footer {
 }
 
 .cta-button {
-    background-color: #4CAF50;
+    background-color: #6FBCF2;
     color: white;
     padding: 1em 2em;
     text-decoration: none;
@@ -61,5 +61,5 @@ footer {
 }
 
 .cta-button:hover {
-    background-color: #6FBCF2;
+    background-color: #a3d7fc;
 }
