@@ -9,7 +9,7 @@ body {
 header {
     background-color: #29527A;
     color: rgb(255, 255, 255);
-    padding: 3em 0;
+    padding: 3em;
     text-align: center;
 }
 
@@ -19,19 +19,17 @@ h1 {
 header .email {
     font-size: 0.9em;
     margin-top: 0.5em;
+    color: rgb(173, 221, 255);
 }
 
 header .email a {
-    color: white;
+    color: rgb(173, 221, 255);
     text-decoration: none;
 }
 
-header .email a:hover {
-    text-decoration: underline;
-}
 section {
     padding: 2em;
-    margin: 0.1em 0;
+    margin: 0.1em;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -68,7 +66,7 @@ h2 {
 .team-member, .announcement {
     text-align:center;
     flex: 1 1 30%;
-    margin: 0.5em;
+    margin: 0.8em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 0.8em;
     border-radius: 5px;
@@ -99,15 +97,15 @@ footer {
 }
 #cta-container {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 0em;
 }
 
 .cta-button {
     background-color: #55aff0;
     color: white;
-    padding: 1em 2em;
+    padding: 1em;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 100px;
     display: inline-block;
 }
 
@@ -135,6 +133,22 @@ footer {
     color: #666;
 }
 
+.date{
+    color:rgb(143, 143, 143);
+    text-decoration: none;
+}
 .announcement-content p {
     margin-bottom: 1em;
+}
+.price {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 0px solid #ccc;
+    border-radius: 100px;
+    background-color: #e4e4e4;
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 0.8em;;
 }
