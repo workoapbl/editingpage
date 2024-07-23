@@ -40,8 +40,10 @@ h2 {
 .college-logo {
     display: inline-block;
     margin: 0.5em;
-    width: 150px; /* Adjust the size as needed */
+    width: 100%;
+    max-width: 150px; /* Adjust the max width as needed */
     height: auto;
+    object-fit: contain; /* Ensure the image scales appropriately */
 }
 
 .team-container, .announcements-container {
@@ -82,6 +84,10 @@ footer {
     padding: 1em 0;
     background-color: #ffffff;
     color: white;
+}
+#cta-container {
+    text-align: center;
+    margin-top: 2em;
 }
 
 .cta-button {
