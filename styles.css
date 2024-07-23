@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #e4ebf1;
+    color: #12212B;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #29527a;
     color: white;
     padding: 1em 0;
     text-align: center;
@@ -61,5 +61,5 @@ footer {
 }
 
 .cta-button:hover {
-    background-color: #45a049;
+    background-color: #6FBCF2;
 }
