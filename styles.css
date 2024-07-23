@@ -16,7 +16,19 @@ header {
 h1 {
     margin: 0;
 }
+header .email {
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
 
+header .email a {
+    color: white;
+    text-decoration: none;
+}
+
+header .email a:hover {
+    text-decoration: underline;
+}
 section {
     padding: 2em;
     margin: 0.1em 0;
