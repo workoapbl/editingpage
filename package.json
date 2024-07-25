@@ -1,0 +1,23 @@
+{
+  "name": "editingpage",
+  "version": "1.0.0",
+  "description": "Webpage for essay editing services",
+  "main": "generatePreview.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workoapbl/editingpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/workoapbl/editingpage/issues"
+  },
+  "homepage": "https://github.com/workoapbl/editingpage#readme",
+  "dependencies": {
+    "jsdom": "^24.1.1"
+  }
+}
